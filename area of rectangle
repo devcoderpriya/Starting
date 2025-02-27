@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+ int length=12;
+int berath=13;
+ int area=length*berath;
+ printf("%d",area);
+    
+   
+    return 0;
+}
