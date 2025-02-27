@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+ int length=12;
+int berath=13;
+ int perimeter=2*(length + berath);
+ printf("%d",perimeter);
+    
+   
+    return 0;
+}
