@@ -1,0 +1,52 @@
+#include <stdio.h>
+
+int main() {
+    int num1 = 10, num2 = 5, result; 
+
+    // Arithmetic Operators
+    result = num1 + num2;  // Addition
+    printf("Addition: %d\n", result); 
+
+    result = num1 - num2;  // Subtraction
+    printf("Subtraction: %d\n", result); 
+
+    result = num1 * num2;  // Multiplication
+    printf("Multiplication: %d\n", result); 
+
+    result = num1 / num2;  // Division
+    printf("Division: %d\n", result); 
+
+    result = num1 % num2;  // Modulus (remainder)
+    printf("Modulus: %d\n", result); 
+
+    // Increment/Decrement Operators
+    int x = 5;
+    printf("Before increment: %d\n", x);
+    x++;  // Increment by 1
+    printf("After increment: %d\n", x); 
+
+    // Relational Operators
+    if (num1 > num2) {
+        printf("%d is greater than %d\n", num1, num2);
+    } 
+
+    // Logical Operators
+    int a = 1, b = 0;
+    if (a && b) {
+        printf("Both conditions are true\n");
+    } else {
+        printf("At least one condition is false\n");
+    }
+
+    return 0;
+}
+// output isAddition: 15
+Subtraction: 5
+Multiplication: 50
+Division: 2
+Modulus: 0
+Before increment: 5
+After increment: 6
+10 is greater than 5
+At least one condition is false
+
