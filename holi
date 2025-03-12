@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+  char colour;
+printf("enter the colour name :");
+scanf("%c",&colour);
+ printf("ASCII value of %d:", colour);
+return 0;
+}
