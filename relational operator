@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the number :");
+    scanf("%d",&a);
+    int b;
+    printf("enter the number :");
+    scanf("%d",&b);
+    if (a==b);
+    printf(" both are equal\n",a,b);
+    if(a>b);
+    printf(" %d a is greater than %d\n",a,b);
+    if(a<b);
+    printf("  %d b is smaller than %d",a,b);
+    
+    
+    
+    
+    return 0;
+}
+// output isenter the number :7
+enter the number :9
+ both are equal
+ 7 a is greater than 9
+  7 b is smaller than 9
