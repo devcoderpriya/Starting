@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+int a;
+  printf("enter the number :");
+  scanf("%d",&a);
+  int b;
+  printf("enter the number :");
+  scanf("%d",&b);
+  if(a==b);
+  printf("both are equal\n",a,b);
+  if(a>b);
+  printf("  %d a is greater than %d\n",a,b);
+  if(a<b);
+  printf("  %d b is greater than %d\n",a,b);
+  return 0;
+  }
+  
