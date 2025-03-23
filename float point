@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    float f;
+      printf("Enter the value:\n");
+  
+    
+    scanf("%f", &f);  
+    printf("You entered: %.2f", f);
+    return 0;
+}
