@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    
+    // Strings are stored in this
+    char name[50];
+    printf("Enter your name:\n");
+  
+    // Reading a string
+    scanf("%[^\n]s", name);  
+    printf("Hello, %s!", name);
+    return 0;
+}
